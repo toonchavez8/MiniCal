@@ -7,10 +7,9 @@ buttons.map( button => {
         switch(e.target.innerText){
             case 'Clr':
                 display.innerText = '';
-                break;
                 case "←":
                     if (display.innerText){
-                        display.innerText = display.innerText.slice(0,-1);
+                        display.innerText = display.innerText.slice(0,0);
                     }
                     break;
             case "=":
