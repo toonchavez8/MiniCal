@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    position: absolute;
+    /*position: absolute;*/
     top:50%
     left:50%
     transform: translate(-50%, -50%);
@@ -15,11 +15,7 @@
     line-height: 64px;
     padding: 16px 8px;
     font-size: 35px;
-<<<<<<< HEAD
-    color: rgb(4, 105, 50);
-=======
     color: red;
->>>>>>> ee50ddce349d6f6656459a24e376d1f9444faa11
     font-family: Arial, Helvetica, sans-serif;
     background-color: gainsboro;
 }
